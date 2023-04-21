@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "min-repro-pyright"
+version = "1.0.0"
+description = ""
+authors = ["Sebastian Law <sebnlaw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+reportUnusedVariable = "warning"
+reportUnusedFunction = "warning"
+reportUnusedClass = "warning"
+reportUnusedImport = "warning"
+reportDuplicateImport = "warning"
+reportUnnecessaryIsInstance = "warning"
+reportUnnecessaryComparison = "warning"
+reportUnusedExpression = "warning"
+reportUnusedCoroutine = "warning"
+reportUnnecessaryTypeIgnoreComment = "warning"
+reportMatchNotExhaustive = "warning"
