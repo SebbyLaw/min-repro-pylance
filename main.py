@@ -1,5 +1,5 @@
-from foolib.core import *
-from foolib.types import BAR
+from foolib import *
+from types import BAR
 
 
 class Bar:

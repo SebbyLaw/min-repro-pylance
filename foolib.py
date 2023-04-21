@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 
-from foolib.types import BAR
+from footypes import BAR
 
 
 # everything works fine here
